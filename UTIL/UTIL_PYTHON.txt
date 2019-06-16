@@ -1,0 +1,96 @@
+###Replace http, www and https
+df['status_message'] = df['status_message'].str.replace('http\S+|www.\S+', '', case=False)
+
+### Delete duplicated columns 
+df.T.drop_duplicates()
+
+#Search null values 
+train.isnull().sum(), test.isnull().sum()
+
+### Delete all that starts as @XXXX
+import re
+re.sub(r'@[A-Za-z0-9]+','',df.text[343])
+
+### Replace multiple spaces to one 
+' '.join(mystring.split())
+
+##Cuando tienes la columna generos Action|Adventure|Fantasy y quieres una linea por cada uno 
+categories = set([s for genre_list in df.genres.unique() for s in genre_list.split("|")])
+
+# new column result of condition 
+df_train['result'] = df_train['target'].apply(lambda x: 'True' if x >= 4 else 'False')
+
+#From txt to df 
+with open(path_lib_insultos) as f:
+    lines = f.read().splitlines()
+
+# ADD a STRING AT THE BEGINING OF EACH IN A LIST
+[s + mystring for s in mylist]
+
+# for e if in the same line
+gen = (x for x in xyz if x not in a)
+
+#Check for missing values in Train dataset
+print("Check for missing values in Train dataset")
+null_check=train.isnull().sum()
+
+#filling NA with \"unknown\
+train["comment_text"].fillna("unknown", inplace=True)
+
+#Size of our train and test
+nrow_train=train.shape[0]
+nrow_test=test.shape[0]
+sum=nrow_train+nrow_test
+print("       : train : test")
+print("rows   :",nrow_train,":",nrow_test)
+print("perc   :",round(nrow_train*100/sum),"   :",round(nrow_test*100/sum))
+
+## Check the Class Imbalance (How many are with some value inn it's tag):
+x=train.iloc[:,2:].sum()
+#marking comments without any tags as "clean"
+rowsums=train.iloc[:,2:].sum(axis=1)
+train['clean']=(rowsums==0)
+#count number of clean entries
+train['clean'].sum()
+print("Total comments = ",len(train))
+print("Total clean comments = ",train['clean'].sum())
+print("Total tags =",x.sum())
+
+#Check files on a directory
+import os
+print(os.listdir("C:/Users/Esperanza/Desktop/UOC/TFM/python/jigsaw-unintended-bias-in-toxicity-classification/"))
+
+
+#What is the correct name for operator *, as in function(*args)? unpack, unzip, something else?
+this has been called "splat"I call it "positional expansion", as opposed to ** which I call "keyword expansion".
+
+# correlation between vars
+df_train['total_length'] = df_train['comment_text'].apply(len)
+df_train['capitals'] = df_train['comment_text'].apply(lambda comment: sum(1 for c in comment if c.isupper()))
+df_train['caps_vs_length'] = df_train.apply(lambda row: float(row['capitals'])/float(row['total_length']),axis=1)
+df_train['num_exclamation_marks'] = df_train['comment_text'].apply(lambda comment: comment.count('!'))
+df_train['num_question_marks'] = df_train['comment_text'].apply(lambda comment: comment.count('?'))
+df_train['num_punctuation'] = df_train['comment_text'].apply(lambda comment: sum(comment.count(w) for w in '.,;:'))
+df_train['num_symbols'] = df_train['comment_text'].apply(lambda comment: sum(comment.count(w) for w in '*&$%'))
+df_train['num_words'] = df_train['comment_text'].apply(lambda comment: len(comment.split()))
+df_train['num_unique_words'] = df_train['comment_text'].apply(lambda comment: len(set(w for w in comment.split())))
+df_train['words_vs_unique'] = df_train['num_unique_words'] / df_train['num_words']
+df_train['num_smilies'] = df_train['comment_text'].apply(lambda comment: sum(comment.count(w) for w in (':-)', ':)', ';-)', ';)')))
+
+# heatmap of that correlation 
+features = ('total_length', 'capitals', 'caps_vs_length', 'num_exclamation_marks','num_question_marks', 'num_punctuation', 'num_words', 'num_unique_words','words_vs_unique', 'num_smilies', 'num_symbols')
+columns = ('target', 'severe_toxicity', 'obscene', 'identity_attack', 'insult', 'threat', 'funny', 'wow', 'sad', 'likes', 'disagree', 'sexual_explicit','identity_annotator_count', 'toxicity_annotator_count')
+rows = [{c:df_train[f].corr(df_train[c]) for c in columns} for f in features]
+train_correlations = pd.DataFrame(rows, index=features)
+train_correlations
+
+
+# Fecha de ayer
+from datetime import datetime, timedelta
+today_datetime = datetime.today().now()
+yesterday_datetime = today_datetime - timedelta(days=1)
+today_date = today_datetime.strftime('%Y-%m-%d')
+yesterday_date = yesterday_datetime.strftime('%Y-%m-%d')
+print(yesterday_date)
+
+
