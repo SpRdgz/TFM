@@ -1,2 +1,2 @@
 # TFM
-This is the code that I used to present  my results 
+In this project we are comparing the performance on different libraries and models in both languages Spanish and English. 
