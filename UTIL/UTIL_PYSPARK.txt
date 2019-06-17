@@ -1,0 +1,20 @@
+from datetime import datetime
+from pyspark.sql.types import DateType , TimestampType
+from pyspark.sql.functions import date_format, col, unbase64
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
+
+#cargar como json
+path="/data/.../" 
+paloAltoDF =spark.read.load(path, format="json")
+
+#groupby
+pa_colDF.groupBy("th_category").count().show(80, False)
+
+#Taking the specific columns 
+paloAltoDF_colDF= paloAltoDF.select('timestamp','source_ip', 'source_port', 'destination_ip', 'destination_port', 'log_subtype','threat_id', 'threat_category', 'severity', 'meta.country', 'meta.case', 'log_subtype','headquarter')  
+paloAltoDF_colDF=paloAltoDF_colDF.withColumn("date",paloAltoDF_colDF['timestamp'].cast(DateType()))
+paloAltoDF_colDF=paloAltoDF_colDF.withColumn("hour", date_format(col("timestamp").cast("timestamp"), "HH"))
