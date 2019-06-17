@@ -20,6 +20,11 @@ categories = set([s for genre_list in df.genres.unique() for s in genre_list.spl
 # new column result of condition 
 df_train['result'] = df_train['target'].apply(lambda x: 'True' if x >= 4 else 'False')
 
+#Quedarte con los elementos únicos de una lista: set(lista)
+
+#filtrar por campo 
+df=df.where(df['source'] == "paloalto")
+
 #From txt to df 
 with open(path_lib_insultos) as f:
     lines = f.read().splitlines()
@@ -92,5 +97,39 @@ yesterday_datetime = today_datetime - timedelta(days=1)
 today_date = today_datetime.strftime('%Y-%m-%d')
 yesterday_date = yesterday_datetime.strftime('%Y-%m-%d')
 print(yesterday_date)
+
+#BUscar y reemplazar cualquier tipo de nulo 
+def someNull(df, param):
+    numnull = df.where((df[param] == "") | df[param].isNull() | isnan(param)).count()
+    if(numnull > 1): 
+        df=df.where((df[param] != "") & df[param].isNotNull())
+        print("Number of null values in the "+param +"field : "+str(numnull))
+    return df
+df = someNull(df, "timestamp")
+
+#Validar IPv4
+def validateIP(value):
+    try:
+        ipaddress.ip_address(value)
+        return True
+    except ValueError:
+        return False
+        raise ValueError("Incorrect IP format, should be IPV4")       
+filter_valIPv4 = udf(validateIP, BooleanType())
+df = df.filter(filter_valIPv4(df.source_ip))
+
+
+# HABILITAMOS EL SISTEMA DE FICHEROS HDFS
+URI = sc._gateway.jvm.java.net.URI
+Path = sc._gateway.jvm.org.apache.hadoop.fs.Path
+FileSystem = sc._gateway.jvm.org.apache.hadoop.fs.FileSystem
+fs = FileSystem.get(URI("hdfs://glXXXXXive.sceXXXXX.isi:8020"), sc._jsc.hadoopConfiguration())
+
+
+
+  
+
+
+
 
 
