@@ -69,6 +69,11 @@ print(os.listdir("C:/Users/Esperanza/Desktop/UOC/TFM/python/jigsaw-unintended-bi
 #What is the correct name for operator *, as in function(*args)? unpack, unzip, something else?
 this has been called "splat"I call it "positional expansion", as opposed to ** which I call "keyword expansion".
 
+
+#This is a convenient tool which runs multiple loops of the operation and reports it’s best performance time.
+To do it, you simply type %timeit at the beginning of the row with your operation, run the cell, and see the results.
+
+
 # correlation between vars
 df_train['total_length'] = df_train['comment_text'].apply(len)
 df_train['capitals'] = df_train['comment_text'].apply(lambda comment: sum(1 for c in comment if c.isupper()))
