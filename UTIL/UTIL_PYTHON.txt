@@ -134,7 +134,8 @@ fs = FileSystem.get(URI("hdfs://glXXXXXive.sceXXXXX.isi:8020"), sc._jsc.hadoopCo
 
 
 
-  
+  # Representación via htl de gráficos 
+  https://marcobonzanini.com/2015/04/01/mining-twitter-data-with-python-part-5-data-visualisation-basics/
 
 
 
