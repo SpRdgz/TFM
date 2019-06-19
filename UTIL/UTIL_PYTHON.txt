@@ -65,6 +65,8 @@ print("Total tags =",x.sum())
 import os
 print(os.listdir("C:/Users/Esperanza/Desktop/UOC/TFM/python/jigsaw-unintended-bias-in-toxicity-classification/"))
 
+#Remove column
+df.drop('BranchName',axis=1, inplace=True)
 
 #What is the correct name for operator *, as in function(*args)? unpack, unzip, something else?
 this has been called "splat"I call it "positional expansion", as opposed to ** which I call "keyword expansion".
