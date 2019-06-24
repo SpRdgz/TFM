@@ -1,0 +1,18 @@
+PASOS GIT 
+
+cd C:\Users\Esperanza\Desktop\UOC\TFM\python
+git init
+git config user.name 'SpRdgz'
+git config user.mail 'esperanzarcf@gmail.com'
+git add --all
+git commit -m 'primer commit'
+git remote add origin https://github.com/SpRdgz/TFM.git
+git push -u origin master
+git pull
+# Fix any merge conflicts, if you have a `README.md` locally
+git push -u origin master
+git pull --allow-unrelated-histories
+git push 
+SpRdgz
+Miguel120887
+

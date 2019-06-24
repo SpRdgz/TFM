@@ -1,0 +1,56 @@
+IMPORTANTE: Versión de spark para realizar esta PAC: 2.3
+Primero hay que crear un cluster, poner el nombre y con las opciones genéricas seguimos. 
+
+**** Descripción de los archivos que se encuentran en ese dir
+display(dbutils.fs.ls("/databricks-datasets/cs110x/ml-1m/data-001")
+
+**** print dbutils.fs.head
+print(dbutils.fs.head("/databricks-datasets/cs110x/ml-1m/data-001/users.dat"))
+print(dbutils.fs.head("/databricks-datasets/cs110x/ml-1m/data-001/ratings.dat"))
+print(dbutils.fs.head("/databricks-datasets/cs110x/ml-1m/data-001/movies.dat")) 
+
+
+-----------------EN REALIDAD DE DATABRICKS SOLO ES LO ANTERIOR CON DBUTILS---------------
+--------------------LO SIGUIENTE ES PYSPARK--------CON RDD---------------------------------
+
+// take a peek at what's in the rating file
+rawUsersTextRdd =sc.textFile("/databricks-datasets/cs110x/ml-1m/data-001/users.dat")
+print rawUsersTextRdd.take(5)
+rawRatingsTextRdd = sc.textFile("/databricks-datasets/cs110x/ml-1m/data-001/ratings.dat").map(lambda x: x.split('\t'))
+print rawRatingsTextRdd.take(5)
+rawMoviesTextRdd = sc.textFile("/databricks-datasets/cs110x/ml-1m/data-001/movies.dat").map(lambda x: x.split('\t'))
+print rawMoviesTextRdd.take(5)
+
+//function and regular expression
+import re
+def invalidLine(line):
+    """Verifies if a line is valid to be converted to a dataframe.
+    Args:
+        line (str): A string.
+
+    Returns:
+        boolean: True if valid, False otherwise.
+    """
+    pattern = re.compile(r"0123456789:MF")
+    if pattern.findall(line):
+        return True
+    else:
+        return False
+
+//esquema a medida para cada uno de los ficheros
+from pyspark.sql.types import *
+
+# Custom Schema for users
+userSchema = StructType([ \
+  StructField("UserID", IntegerType(), True),\
+  StructField("Gender", StringType(), True),\
+  StructField("Age", IntegerType(), True),\
+  StructField("Occupation", ShortType(), True),\
+  StructField("Zip-code", StringType(), True)\
+  ])
+  
+
+
+ 
+
+

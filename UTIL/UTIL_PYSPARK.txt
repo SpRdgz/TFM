@@ -1,0 +1,90 @@
+from datetime import datetime
+from pyspark.sql.types import DateType , TimestampType
+from pyspark.sql.functions import date_format, col, unbase64
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
+
+#cargar como json
+path="/data/.../" 
+paloAltoDF =spark.read.load(path, format="json")
+
+#groupby
+pa_colDF.groupBy("th_category").count().show(80, False)
+
+#Taking the specific columns 
+paloAltoDF_colDF= paloAltoDF.select('timestamp','source_ip', 'source_port', 'destination_ip', 'destination_port', 'log_subtype','threat_id', 'threat_category', 'severity', 'meta.country', 'meta.case', 'log_subtype','headquarter')  
+paloAltoDF_colDF=paloAltoDF_colDF.withColumn("date",paloAltoDF_colDF['timestamp'].cast(DateType()))
+paloAltoDF_colDF=paloAltoDF_colDF.withColumn("hour", date_format(col("timestamp").cast("timestamp"), "HH"))
+
+
+
+
+def validateIP(value):
+    try:
+        ipaddress.ip_address(value)
+        return True
+    except ValueError:
+        return False
+        raise ValueError("Incorrect IP format, should be IPV4")    
+
+
+
+
+def validatePort(dfNorm, col):
+    try:
+            dfNorm=dfNorm.withColumn('destination_port',when(dfNorm.destination_port <= 65535 ,dfNorm.destination_port).otherwise(''))
+            dfNorm=dfNorm.withColumn('destination_port',when(dfNorm.destination_port < 1 ,'').otherwise(dfNorm.destination_port))
+            df2 = dfNorm.where(dfNorm['destination_port'] != "")
+            return df2
+    except ValueError:
+        print("Error in validatePort") 
+        return dfNorm
+           
+
+
+
+
+
+#This function checks if we have a new headquarter in our input data 
+def check_country_list(count_headq_list, df):
+    try:
+        #Define a list with the pyspark df column event_category with the alert list received 
+        df_headquarter_list = set(df.select("country").rdd.flatMap(lambda x: x).collect())
+        #Check if we have some alert new, nos defined in our file 
+        diff_found=df_headquarter_list-set(count_headq_list)       
+        # If we foudnd some new value  "Informativa + Eliminación registro"        
+        if (len(diff_found) > 0):
+            print("List of new alerts.")
+            df= df.filter(~df.country.isin(diff_found))
+            print(diff_found)
+            return df
+        else:
+            return df
+            raise ValueError
+    except ValueError:
+        return df
+        print("This is NOT a VALID headquarter value.")    
+        
+filter_valIPv4 = udf(validateIP, BooleanType())
+
+
+# We have to bear in mind if it's Monday. In that case first we process saturday
+#and later by default we process Sunday
+if date.today().weekday() == 0:
+    read_mode_value=creating_nday_file(2)
+    dfev, dfNorm, status = std_main()
+    
+read_mode_value=creating_nday_file(1)
+#read_mode_value = "blacklake-paloalto-parsed-2019-06-13TROL.log"
+dfev, dfNorm, status = std_main()
+
+
+# HABILITAMOS EL SISTEMA DE FICHEROS HDFS
+URI = sc._gateway.jvm.java.net.URI
+Path = sc._gateway.jvm.org.apache.hadoop.fs.Path
+FileSystem = sc._gateway.jvm.org.apache.hadoop.fs.FileSystem
+fs = FileSystem.get(URI("hdfs://gldXXXXXXe.sceXXX00.isi:8020"), sc._jsc.hadoopConfiguration())
+
