@@ -1,0 +1,507 @@
+	mierdaseca	shit	{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.5574}
+
+	hijo de puta	Guapa	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	bocachancla	bocachancla	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	abrazafarolas	armguard	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cabron	asshole	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	chupacables	chupacables	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cuerpoescombro	corps	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	lameculos	toady	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	morroestufa	morroestufa	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pagafantas	Friend Zone	{'neg': 0.0, 'neu': 0.238, 'pos': 0.762, 'compound': 0.4939}
+
+	tolai	Tolai people	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	perroflauta	perroflauta	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	parguela	parguela	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cenutrio	You blockhead!	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cabezabuque	head	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	melon	Muskmelon	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	puta	bitch	{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.5859}
+
+	puto	fucking	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	nazi	Nazi	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	niñata	little girl	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	tocapelotas	tocapelotas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pichabrava	pichabrava	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	peinabombillas	hairbrush	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	caraespatula	caraespatula	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cipote	Cynomorium coccineum	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	p***	p	{'neg': 0.0, 'neu': 0.0, 'pos': 0.0, 'compound': 0.0}
+
+	panoli	panoli	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cierrabares	closures	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	merluzo	merluzo	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	capullo	boll	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	muerdesartenes	muerdesartenes	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	zampabollos	zampabollos	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	mentecato	Goofy	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	aborto de mono	Monkey abortion	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	zarrapastroso	scruffy	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	tuercebotas	screwdrivers	{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.0258}
+
+	alcornoque	cork oak	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	bebecharcos	bebecharcos	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	lerdo	Lerdo, Durango	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	papafrita	French fries	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	huevon	huevon	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	mindundi	mindundi	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	carajaula	carajaula	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	malparido	Malparida	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	zopenco	Stupidity	{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.4404}
+
+	soplagaitas	blowing bagpipes	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	culopollo	culpollo	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	piltrafa	piltrafa	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	amorfo	amorphous	{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.0516}
+
+	papanatas	fool	{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.4404}
+
+	meapilas	meapilas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	zurcefrenillos	zurcefrenillos	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	mequetrefe	whipper-snapper	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pelagambas	pelagambas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	gañan	win	{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.5859}
+
+	pazguato	pazguato	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	lechuguino	Euphorbia helioscopia	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pedorro	fart	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	caraculo	"assface  "	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	caracarton	caracarton	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pelele	combined vest and underpants	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	alfeñique	a wimp (Slang	{'neg': 0.706, 'neu': 0.294, 'pos': 0.0, 'compound': -0.34}
+
+	botarate	botarate	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	mameluco	Mamluk	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	quitahipos	removers	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	paquete	format	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pintamonas	Lolium temulentum	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	zoquete	chump	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	energumeno	madman	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	gilipuertas	gilipuertas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	palurdo	Rube	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	perra	Canine species (organism)	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cretino	cretin	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	comebolsas	comebags	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	sabandija	vermin	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	analfabestia	illiteracy	{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.4404}
+
+	tipa	Tipuana tipu	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	piojoso	lousy	{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.5423}
+
+	peinaovejas	peinaovejas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	perrocostra	dogcostra	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pelagatos	ragamuffin	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	tarugo	treenail	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pecholata	chestnut	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cantamañanas	cantamañanas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	brasas	Ember	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	baboso	slimy	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pataliebre	pataliebre	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	maricon	fagot	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	giraesquinas	rotating machines	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	mastuerzo	Cress	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	bocabuzon	bocabuzon	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	lamecharcos	lamecharcos	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	ceporro	cepor	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	adufe	Daf	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	calientahielos	ice heater	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pinchauvas	pinchauvas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pamplinas	Nonsense!	{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.4574}
+
+	tarado	with a genetic defect	{'neg': 0.545, 'neu': 0.455, 'pos': 0.0, 'compound': -0.34}
+
+	bocallanta	bocallanta	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	caraflema	caraflema	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	zascandil	busybody	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	tragaldabas	tragaldabas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	patan	Patan	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	rebañasandias	Andean flocks	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pocasluces	few lights	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	soplabergas	blowers	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cazurro	cazurro	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+
+	bellaco	Bananas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	berzotas	...	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	tunante caracaballo	rascal caracaballo	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	chupoptero	chupoptero	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	comechapas	comechapas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cansalmas	cansalmas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cebollino	Levant garlic	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	tontaco	tontaco	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cagalindes	cagalindes	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	zangano	Drone	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	besugo	common seabream, red seabream, sea bream	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	sanguijuela	leech	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cachivache	cachivache	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	vendehumos	vendehumos	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cernicalo	Common Kestrel	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	gandul	Slacker	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	percebe	goose barnacle	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	chiquilicuatre	chiquilicuatre	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	fariseo	Pharisees	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	donnadie	nobody	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	mamporrero	mamporrero	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	escornacabras	scornacabras	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	arrastracueros	creepers	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pelma	pelma	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cenizo	Ashen	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	comeflores	comeflores	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	revientabaules	busting	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	bobalicon	bobalicon	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	zarrapastroso	scruffy	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	majadero	Pestle	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cartulina	card	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cagarruta	cagarruta	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	robaperas	robaperas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cabestro	halter	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cabeza alberca	pool head	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	picapleitos	shyster	{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.3818}
+
+	lumbreras	skylight	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	barriobajero	neighborhood	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	mendrugo	EL MENDRUGO	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pollopera	chicken	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	malasombra	malasombra	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	chupasangre	bloodsucker	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	fantoche	Fantoche	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	lameplatos	lameplatos	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	petimetre	dude	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pasmarote	baffled	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	mangarran	mangarran	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	mangurrian	mangurrian	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cafre	Karate	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	feminazi	Feminazi	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	puto	fucking	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pardillo	linnet	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pasmasuegras	pasmasuegras	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	carapapa	[Publicación electrónica anterior a la versión impresa]	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	cartuli	cartuli	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	carajote	carajote	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	sinsustancia	nonsubstance	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pitofloro	pitofloro	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	gorrino	Domestic pig	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	huelegateras	huelegateras	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	gabacho	Gabacho	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	lambon	lambon	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	dondiego	Mr. Diego	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pechugona	Busty	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	gaznapiro	gaznapiro	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	tontucio	tontucio	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	abanto	Abanto	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	borrico	Donkey	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	comestacas	comands	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	malasangre	bad blood	{'neg': 0.778, 'neu': 0.222, 'pos': 0.0, 'compound': -0.5423}
+
+	carapijo	carapijo	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	boquimuelle	boquimuelle	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	soplaguindas	blowers	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	ovejo	Sheep	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	imbecil	Stupidity	{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.4404}
+
+	metemuertos	metemuertos	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	eunuco	eunuch	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	piruja	piruja	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	paleto	overcoat	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	niñato	baby	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	calzamonas	calzamonas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	chirimbaina	chirimbaina	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pelazarzas	pelazarzas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	morlaco	morlaco	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	tordo	peacock wrasse	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	calamidad	calamity	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	longanizas	Longaniza sausage	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pelagallos	peel them	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	zote	Dunce	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	estulto	stupid	{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.5267}
+
+	fulastre	fulastre	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	sacamuelas	toothbrush	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	altapendeja	altapendeja	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	sonso	smooth sandlance	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	zambombo	zambombo	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	gorrumino	gorrow	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	habahela	habahela	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	tocho	billet, log	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	belloto	belloto	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	orate	madman	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	zamacuco	zamacuco	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	mamon	momon	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	artaban	artaban	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pillavispas	pillavispas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	guitarro	guitar	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	lloramigas	lloramigas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	maganto	Norway lobster	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	manegueta	manegueta	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+
+	matacandiles	matacandiles	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	ganapio	ganapio	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	gurriato	Passer	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	esbaratabailes	esbaratabailes	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pitañoso	rheumy	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	tiralevitas	tiralevitas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	ganapan	ganapan	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	tonto	fool	{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.4404}
+
+	metijaco	methaco	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pavitonto	silly	{'neg': 0.0, 'neu': 0.0, 'pos': 1.0, 'compound': 0.0258}
+
+	sonajas	rattles	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	sosco	guardianship	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	desgarracalzas	tear	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	letrin	letrin	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	papirote	nincompoop	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	rastrapajo	rastrapajo	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	sinentraero	sinentraero	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	tagarote	tagarote	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	escolimoso	scolding	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	filimincias	filimincias	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	panarra	panarra	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	rieleches	Rieleches	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	zamugo	zamugo	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	andurriasmo	andurriasmo	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	barrabas	barbs	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	calambuco	calambuco	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	calduo	calduo	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	charran	charran	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	echacantos	echacantos	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	fanfosquero	fanfosquero	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	foligoso	Frosty	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	pelatigres	pelatigres	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	peterete	peterete	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	plomo	lead	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	atarre	atarre	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	ejarramantas	ejarramantas	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	zullenco	zullenco	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
+
+	bastardo	mongrel	{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}
