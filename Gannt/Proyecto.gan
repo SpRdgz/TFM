@@ -91,13 +91,13 @@
                         <customproperty taskproperty-id="tpc0" value="6.0"/>
                     </task>
                 </task>
-                <task id="96" name="Preparación de los datos" color="#990000" meeting="false" start="2019-05-28" duration="12" complete="0" thirdDate="2019-04-22" thirdDate-constraint="0" expand="true">
+                <task id="96" name="Preparación de los datos" color="#990000" meeting="false" start="2019-05-28" duration="20" complete="0" thirdDate="2019-04-22" thirdDate-constraint="0" expand="true">
                     <customproperty taskproperty-id="tpc0" value="65.0"/>
                     <task id="99" name="EDA de los datos Twitter" color="#990000" meeting="false" start="2019-05-28" duration="4" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
                         <customproperty taskproperty-id="tpc0" value="20.0"/>
                     </task>
                     <task id="100" name="EDA de los datos de Kaggle" color="#990000" meeting="false" start="2019-06-01" duration="3" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
-                        <customproperty taskproperty-id="tpc0" value="12.0"/>
+                        <customproperty taskproperty-id="tpc0" value="10.0"/>
                     </task>
                     <task id="101" name="DCP de los datos de Twitter" color="#990000" meeting="false" start="2019-06-04" duration="3" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
                         <notes><![CDATA[Se realizará todo el data cleaning sobre los datos de Kaggle ]]></notes>
@@ -116,6 +116,9 @@ https://listas.20minutos.es/lista/insultos-en-castellano-que-deberias-conocer-y-
                     </task>
                     <task id="112" name="Conclusiones, document..." color="#990000" meeting="false" start="2019-06-07" duration="1" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
                         <customproperty taskproperty-id="tpc0" value="14.0"/>
+                    </task>
+                    <task id="202" name="Repositorio GIT" color="#8cb6ce" meeting="false" start="2019-06-16" duration="1" complete="0" thirdDate="2019-06-08" thirdDate-constraint="0" expand="true">
+                        <customproperty taskproperty-id="tpc0" value="2.0"/>
                     </task>
                 </task>
                 <task id="70" name="Modelado ML" color="#660066" meeting="false" start="2019-06-07" duration="18" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
@@ -138,10 +141,10 @@ https://listas.20minutos.es/lista/insultos-en-castellano-que-deberias-conocer-y-
                 <task id="88" name="Revisión de la memoria" color="#006666" meeting="false" start="2019-06-25" duration="1" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
                     <customproperty taskproperty-id="tpc0" value="6.0"/>
                 </task>
-                <task id="90" name="Presentación del trabajo Video" color="#006666" meeting="false" start="2019-06-26" duration="1" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
+                <task id="95" name="Presentación del trabajo PPT" color="#006666" meeting="false" start="2019-06-27" duration="1" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
                     <customproperty taskproperty-id="tpc0" value="6.0"/>
                 </task>
-                <task id="95" name="Presentación del trabajo PPT" color="#006666" meeting="false" start="2019-06-27" duration="1" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
+                <task id="90" name="Presentación del trabajo Video" color="#006666" meeting="false" start="2019-06-26" duration="1" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
                     <customproperty taskproperty-id="tpc0" value="6.0"/>
                 </task>
             </task>

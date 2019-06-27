@@ -17,6 +17,7 @@ Melón
 Puta
 Puto
 Nazi
+Niñata
 Tocapelotas
 Pichabrava
 Peinabombillas
@@ -73,6 +74,7 @@ Cretino
 Comebolsas
 Sabandija
 Analfabestia
+Tipa
 Piojoso
 Peinaovejas
 Perrocostra
@@ -204,6 +206,7 @@ Tocho
 Belloto
 Orate
 Zamacuco
+Mamón
 Artabán
 Pillavispas
 Guitarro
@@ -248,4 +251,3 @@ Atarre
 Ejarramantas
 Zullenco
 Bastardo
-Puta
