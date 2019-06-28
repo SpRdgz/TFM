@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="TFM" company="UOC" webLink="http://" view-date="2019-06-08" view-index="0" gantt-divider-location="704" resource-divider-location="300" version="2.8.10" locale="es">
+<?xml version="1.0" encoding="UTF-8"?><project name="TFM" company="UOC" webLink="http://" view-date="2019-06-26" view-index="0" gantt-divider-location="747" resource-divider-location="300" version="2.8.10" locale="es">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="238" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="143" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="143" order="2"/>
-        <field id="tpc0" name="Horas" width="161" order="3"/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="252" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="158" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="158" order="2"/>
+        <field id="tpc0" name="Horas" width="175" order="3"/>
         <option id="color.recent"><![CDATA[#00ff33 #00ff99 #00ff66 #3333ff #006666 #660066 #990000 #00cccc #000000 #006633]]></option>
     </view>
     <view id="resource-table">
@@ -37,7 +37,7 @@
             <taskproperty id="tpc0" name="Horas" type="custom" valuetype="double"/>
         </taskproperties>
         <task id="36" name="Trabajo fin de máster" color="#00cccc" meeting="false" start="2019-03-22" duration="105" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" priority="4" expand="true">
-            <customproperty taskproperty-id="tpc0" value="368.0"/>
+            <customproperty taskproperty-id="tpc0" value="374.0"/>
             <task id="4" name="Propuesta de Proyecto" color="#000000" meeting="false" start="2019-03-22" duration="77" complete="0" thirdDate="2019-03-22" thirdDate-constraint="0" expand="true">
                 <notes><![CDATA[10%]]></notes>
                 <customproperty taskproperty-id="tpc0" value="10.0"/>
@@ -69,7 +69,7 @@
             <task id="32" name="Evolución del trabajo y la memoria" color="#006633" meeting="false" start="2019-04-08" duration="78" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
                 <notes><![CDATA[40%
 ]]></notes>
-                <customproperty taskproperty-id="tpc0" value="340.0"/>
+                <customproperty taskproperty-id="tpc0" value="346.0"/>
                 <task id="38" name="Análisis inicial" color="#00ff33" meeting="false" start="2019-04-08" duration="50" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
                     <customproperty taskproperty-id="tpc0" value="175.0"/>
                     <task id="44" name="Estado actual de los estudios de modelos NLP de análisis de sentimientos" color="#00ff66" meeting="false" start="2019-04-08" duration="11" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
@@ -92,9 +92,12 @@
                     </task>
                 </task>
                 <task id="96" name="Preparación de los datos" color="#990000" meeting="false" start="2019-05-28" duration="20" complete="0" thirdDate="2019-04-22" thirdDate-constraint="0" expand="true">
-                    <customproperty taskproperty-id="tpc0" value="65.0"/>
+                    <customproperty taskproperty-id="tpc0" value="117.0"/>
                     <task id="99" name="EDA de los datos Twitter" color="#990000" meeting="false" start="2019-05-28" duration="4" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
                         <customproperty taskproperty-id="tpc0" value="20.0"/>
+                    </task>
+                    <task id="203" name="Feature Engineering" color="#8cb6ce" meeting="false" start="2019-05-31" duration="2" complete="0" thirdDate="2019-06-26" thirdDate-constraint="0" expand="true">
+                        <customproperty taskproperty-id="tpc0" value="4.0"/>
                     </task>
                     <task id="100" name="EDA de los datos de Kaggle" color="#990000" meeting="false" start="2019-06-01" duration="3" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
                         <customproperty taskproperty-id="tpc0" value="10.0"/>
@@ -103,8 +106,8 @@
                         <notes><![CDATA[Se realizará todo el data cleaning sobre los datos de Kaggle ]]></notes>
                         <customproperty taskproperty-id="tpc0" value="12.0"/>
                     </task>
-                    <task id="191" name="Creación de ground truth en Castellano" color="#8cb6ce" meeting="false" start="2019-06-03" duration="2" complete="0" thirdDate="2019-06-08" thirdDate-constraint="0" expand="true">
-                        <customproperty taskproperty-id="tpc0" value="5.0"/>
+                    <task id="191" name="Creación de ground truth en Castellano" color="#8cb6ce" meeting="false" start="2019-06-03" duration="4" complete="0" thirdDate="2019-06-08" thirdDate-constraint="0" expand="true">
+                        <customproperty taskproperty-id="tpc0" value="48.0"/>
                     </task>
                     <task id="104" name="Creación de la libreria de lenguaje tóxico en español" color="#990000" meeting="false" start="2019-06-06" duration="1" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
                         <notes><![CDATA[Insertaremos todas las palabras consideradas insultos en español
@@ -112,7 +115,7 @@ https://listas.20minutos.es/lista/insultos-en-castellano-que-deberias-conocer-y-
                         <customproperty taskproperty-id="tpc0" value="2.0"/>
                     </task>
                     <task id="196" name="EDA II datos de Kaggle" color="#8cb6ce" meeting="false" start="2019-06-08" duration="1" complete="0" thirdDate="2019-06-08" thirdDate-constraint="0" expand="true">
-                        <customproperty taskproperty-id="tpc0" value="3.0"/>
+                        <customproperty taskproperty-id="tpc0" value="5.0"/>
                     </task>
                     <task id="112" name="Conclusiones, document..." color="#990000" meeting="false" start="2019-06-07" duration="1" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
                         <customproperty taskproperty-id="tpc0" value="14.0"/>
@@ -121,12 +124,9 @@ https://listas.20minutos.es/lista/insultos-en-castellano-que-deberias-conocer-y-
                         <customproperty taskproperty-id="tpc0" value="2.0"/>
                     </task>
                 </task>
-                <task id="70" name="Modelado ML" color="#660066" meeting="false" start="2019-06-07" duration="18" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
+                <task id="70" name="Modelado ML" color="#660066" meeting="false" start="2019-06-12" duration="13" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
                     <notes><![CDATA[Debe ser el 40% del proyecto]]></notes>
-                    <customproperty taskproperty-id="tpc0" value="102.0"/>
-                    <task id="76" name="Modelo sobre dataset Jigsaw" color="#660066" meeting="false" start="2019-06-07" duration="7" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
-                        <customproperty taskproperty-id="tpc0" value="48.0"/>
-                    </task>
+                    <customproperty taskproperty-id="tpc0" value="54.0"/>
                     <task id="116" name="Modelo sobre el dataset en Español" color="#660066" meeting="false" start="2019-06-12" duration="13" complete="0" thirdDate="2019-04-26" thirdDate-constraint="0" expand="true">
                         <customproperty taskproperty-id="tpc0" value="48.0"/>
                     </task>
